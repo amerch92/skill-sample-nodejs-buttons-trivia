@@ -49,127 +49,248 @@ module.exports = Object.freeze({
     questions_en_US: [
         {
             index: 1,
-            question: 'What is the name for a group of lions?',
-            answers: ['pack', 'pride', 'den', 'frat'],
-            correct_answer: 'pride'
+            question: 'Who is Luke Skywalker’s dad?',
+            answers: ['anakin', 'darth maul', 'count dookoo', 'jar jar binks'],
+            correct_answer: 'anakin'
         },
         {
           index: 2,
-          question: 'What is the only type of bear native to South America?',
-          answers: ['brown bear', 'kodiac', 'giant panda', 'spectacled bear'],
-          correct_answer: 'spectacled bear'
+          question: 'Which is the only film of the original six in which desert planet Tatooine doesn’t appear?',
+          answers: ['new hope', 'empire strikes back', 'last jedi', 'phantom menace'],
+          correct_answer: 'empire strikes back'
         },
         {
             index: 3,
-            question: 'What type of animal is a seahorse?',
-            answers: ['crustacean', 'arachnid', 'fish', 'shell'],
-            correct_answer: 'fish'
+            question: 'What’s the name of the green-skinned bounty hunter Han Solo kills in Mos Eisley’s cantina?',
+            answers: ['jar jar binks', 'boba fett', 'jabba the hut', 'greedo'],
+            correct_answer: 'greedo'
         },
         {
             index: 4,
-            question: 'What color are zebras?',
-            answers: ['white with black stripes', 'black with white stripes'],
-            correct_answer: 'black with white stripes'
+            question: 'Who kills Jabba The Hutt?',
+            answers: ['princess leia', 'han solo', 'darth maul', 'jar jar binks'],
+            correct_answer: 'princess leia'
         },
         {
             index: 5,
-            question: 'What is the fastest water animal?',
-            answers: ['porpoise', 'sailfish', 'flying fish', 'tuna'],
-            correct_answer: 'sailfish'
+            question: 'What was Luke Skywalker’s original surname?',
+            answers: ['jar jar binks', 'maul', 'starkiller', 'spaceman'],
+            correct_answer: 'starkiller'
         },
         {
             index: 6,
-            question: 'What is the only venomous snake found in Britain?',
-            answers: ['cobra', 'coral snake', 'copperhead', 'adder'],
-            correct_answer: 'adder'
+            question: 'What planet do Wookiees come from?',
+            answers: ['kashyyk', 'endor', 'jakku', 'tattoine'],
+            correct_answer: 'kashyyk'
         },
         {
             index: 7,
-            question: 'What is a female donkey called?',
-            answers: ['joey', 'jenny', 'janet'],
-            correct_answer: 'jenny'
+            question: 'What does Luke’s uncle Owen do as a job?',
+            answers: ['jar jar binks', 'moisture farmer', 'bounty hunter', 'jedi'],
+            correct_answer: 'moisture farmer'
         },
         {
             index: 8,
-            question: 'What land mammal other than man has the longest lifespan?',
-            answers: ['blue whale', 'dolphin', 'elephant', 'orangutan'],
-            correct_answer: 'elephant'
+            question: 'Which of these last names does Leia NOT have a family connection to?',
+            answers: ['maul', 'solo', 'amidala', 'organa'],
+            correct_answer: 'maul'
         },
         {
             index: 9,
-            question: 'Eskimos call what kind of creature a nanook?',
-            answers: ['penguin', 'narwhal', 'polar bear', 'caribou'],
-            correct_answer: 'polar bear'
+            question: 'Obi-Wan learned to become one with the force from who?',
+            answers: ['han solo', 'maul', 'yoda', 'qui got jinn'],
+            correct_answer: 'qui gon jinn'
         },
         {
             index: 10,
-            question: 'Lupus is the Latin name for what animal?',
-            answers: ['dog', 'cat', 'wolf', 'fox'],
-            correct_answer: 'wolf'
+            question: 'What color lasers do Tie Fighters shoot?',
+            answers: ['green', 'purple', 'blue', 'yellow'],
+            correct_answer: 'green'
+        },
+	{
+            index: 11,
+            question: 'What type of gun does han solo have?',
+            answers: ['laser shooter', 'cross bow', 'shot gun', 'DL-44'],
+            correct_answer: 'DL-44'
+        },
+	{
+            index: 12,
+            question: 'What rank does han solo obtain during the galactic civil war?',
+            answers: ['admiral', 'commander', 'general', 'yellow'],
+            correct_answer: 'general'
+        },
+	{
+            index: 13,
+            question: 'How old was pad may when she became queen?',
+            answers: ['15', '14', '13', '12'],
+            correct_answer: '14'
+        },
+	{
+            index: 14,
+            question: 'How old was yoda when he died?',
+            answers: ['867', '900', '2000', '10'],
+            correct_answer: '900'
+        },
+	{
+            index: 15,
+            question: 'What is the species of the workers on cloud city who helped freeze han solo in carbonite?',
+            answers: ['ugnaughts', 'jar jar binks', 'yogis', 'wookies'],
+            correct_answer: 'ugnaughts'
+        },
+	{
+            index: 16,
+            question: 'Where does yoda live?',
+            answers: ['endor', 'kashyyk', 'dagobah', 'jakku'],
+            correct_answer: 'dagobah'
+        },
+	{
+            index: 17,
+            question: 'What color is mace windus light saber?',
+            answers: ['green', 'purple', 'blue', 'yellow'],
+            correct_answer: 'purple'
+        },
+	{
+            index: 18,
+            question: 'Where is rey from?',
+            answers: ['endor', 'kashyyk', 'dagobah', 'jakku'],
+            correct_answer: 'jakku'
+        },
+	{
+            index: 19,
+            question: 'Who is the leader of the first order?',
+            answers: ['general grievous', 'general snoke', 'darth vader', 'darth maul'],
+            correct_answer: 'general snoke'
+        },
+	{
+            index: 20,
+            question: 'Which planet does maz kanata live?',
+            answers: ['endor', 'dagobah', 'jakku', 'takodana'],
+            correct_answer: 'takodana'
         }
 
     ],
     questions_en_GB: [
       {
-          index: 1,
-          question: 'What is the name for a group of lions?',
-          answers: ['pack', 'pride', 'den', 'frat'],
-          correct_answer: 'pride'
-      },
-      {
+            index: 1,
+            question: 'Who is Luke Skywalker’s dad?',
+            answers: ['anakin', 'darth maul', 'count dookoo', 'jar jar binks'],
+            correct_answer: 'anakin'
+        },
+        {
           index: 2,
-          question: 'What is the only type of bear native to South America?',
-          answers: ['brown bear', 'kodiac', 'giant panda', 'spectacled bear'],
-          correct_answer: 'spectacled bear'
-      },
-      {
-          index: 3,
-          question: 'What type of animal is a seahorse?',
-          answers: ['crustacean', 'arachnid', 'fish', 'shell'],
-          correct_answer: 'fish'
-      },
-      {
-          index: 4,
-          question: 'What color are zebras?',
-          answers: ['white with black stripes', 'black with white stripes'],
-          correct_answer: 'black with white stripes'
-      },
-      {
-          index: 5,
-          question: 'What is the fastest water animal?',
-          answers: ['porpoise', 'sailfish', 'flying fish', 'tuna'],
-          correct_answer: 'sailfish'
-      },
-      {
-          index: 6,
-          question: 'What is the only venomous snake found in Britain?',
-          answers: ['cobra', 'coral snake', 'copperhead', 'adder'],
-          correct_answer: 'adder'
-      },
-      {
-          index: 7,
-          question: 'What is a female donkey called?',
-          answers: ['joey', 'jenny', 'janet'],
-          correct_answer: 'jenny'
-      },
-      {
-          index: 8,
-          question: 'What land mammal other than man has the longest lifespan?',
-          answers: ['blue whale', 'dolphin', 'elephant', 'orangutan'],
-          correct_answer: 'elephant'
-      },
-      {
-          index: 9,
-          question: 'Eskimos call what kind of creature a nanook?',
-          answers: ['penguin', 'narwhal', 'polar bear', 'caribou'],
-          correct_answer: 'polar bear'
-      },
-      {
-          index: 10,
-          question: 'Lupus is the Latin name for what animal?',
-          answers: ['dog', 'cat', 'wolf', 'fox'],
-          correct_answer: 'wolf'
-      }
+          question: 'Which is the only film of the original six in which desert planet Tatooine doesn’t appear?',
+          answers: ['new hope', 'empire strikes back', 'last jedi', 'phantom menace'],
+          correct_answer: 'empire strikes back'
+        },
+        {
+            index: 3,
+            question: 'What’s the name of the green-skinned bounty hunter Han Solo kills in Mos Eisley’s cantina?',
+            answers: ['jar jar binks', 'boba fett', 'jabba the hut', 'greedo'],
+            correct_answer: 'greedo'
+        },
+        {
+            index: 4,
+            question: 'Who kills Jabba The Hutt?',
+            answers: ['princess leia', 'han solo', 'darth maul', 'jar jar binks'],
+            correct_answer: 'princess leia'
+        },
+        {
+            index: 5,
+            question: 'What was Luke Skywalker’s original surname?',
+            answers: ['jar jar binks', 'maul', 'starkiller', 'spaceman'],
+            correct_answer: 'starkiller'
+        },
+        {
+            index: 6,
+            question: 'What planet do Wookiees come from?',
+            answers: ['kashyyk', 'endor', 'jakku', 'tattoine'],
+            correct_answer: 'kashyyk'
+        },
+        {
+            index: 7,
+            question: 'What does Luke’s uncle Owen do as a job?',
+            answers: ['jar jar binks', 'moisture farmer', 'bounty hunter', 'jedi'],
+            correct_answer: 'moisture farmer'
+        },
+        {
+            index: 8,
+            question: 'Which of these last names does Leia NOT have a family connection to?',
+            answers: ['maul', 'solo', 'amidala', 'organa'],
+            correct_answer: 'maul'
+        },
+        {
+            index: 9,
+            question: 'Obi-Wan learned to become one with the force from who?',
+            answers: ['han solo', 'darth maul', 'yoda', 'qui got jinn'],
+            correct_answer: 'qui gon jinn'
+        },
+        {
+            index: 10,
+            question: 'What color lasers do Tie Fighters shoot?',
+            answers: ['green', 'purple', 'blue', 'yellow'],
+            correct_answer: 'green'
+        },
+	{
+            index: 11,
+            question: 'What type of gun does han solo have?',
+            answers: ['laser shooter', 'cross bow', 'shot gun', 'DL-44'],
+            correct_answer: 'DL-44'
+        },
+	{
+            index: 12,
+            question: 'What rank does han solo obtain during the galactic civil war?',
+            answers: ['admiral', 'commander', 'general', 'yellow'],
+            correct_answer: 'general'
+        },
+	{
+            index: 13,
+            question: 'How old was pad may when she became queen?',
+            answers: ['15', '14', '13', '12'],
+            correct_answer: '14'
+        },
+	{
+            index: 14,
+            question: 'How old was yoda when he died?',
+            answers: ['867', '900', '2000', '10'],
+            correct_answer: '900'
+        },
+	{
+            index: 15,
+            question: 'What is the species of the workers on cloud city who helped freeze han solo in carbonite?',
+            answers: ['ugnaughts', 'jar jar binks', 'yogis', 'wookies'],
+            correct_answer: 'ugnaughts'
+        },
+	{
+            index: 16,
+            question: 'Where does yoda live?',
+            answers: ['endor', 'kashyyk', 'dagobah', 'jakku'],
+            correct_answer: 'dagobah'
+        },
+	{
+            index: 17,
+            question: 'What color is mace windus light saber?',
+            answers: ['green', 'purple', 'blue', 'yellow'],
+            correct_answer: 'purple'
+        },
+	{
+            index: 18,
+            question: 'Where is rey from?',
+            answers: ['endor', 'kashyyk', 'dagobah', 'jakku'],
+            correct_answer: 'jakku'
+        },
+	{
+            index: 19,
+            question: 'Who is the leader of the first order?',
+            answers: ['general grievous', 'general snoke', 'darth vader', 'darth maul'],
+            correct_answer: 'general snoke'
+        },
+	{
+            index: 20,
+            question: 'Which planet does maz kanata live?',
+            answers: ['endor', 'dagobah', 'jakku', 'takodana'],
+            correct_answer: 'takodana'
+        }
 
   ]
 });
+
