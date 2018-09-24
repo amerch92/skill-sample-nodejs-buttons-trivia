@@ -1,13 +1,11 @@
-#  Build An Alexa 'Better with Buttons' Trivia Game
-<img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/fact/header._TTH_.png" />
+#  Star Wars Trivia Game with Echo Buttons
 
+This guide was forked from amazon's official guide.
 **Important: The Gadgets Skill API is in beta and is subject to change at any time without notice. We welcome your feedback.**
 
 This Alexa sample skill is a template for a trivia game which is played with [Echo Buttons](https://www.amazon.com/Echo-Buttons-Alexa-Gadget-Pack/dp/B072C4KCQH) in multiplayer mode but can also be played without buttons in single player mode. Provided a list of interesting questions about a topic, Alexa will select a group of questions to ask the player(s), keep score throughout, and announce the winner at the end of the game.
 
 This sample skill demonstrates how to discover Echo Buttons using [roll call](https://developer.amazon.com/docs/gadget-skills/discover-echo-buttons.html#goals), how to [receive Echo Button events](https://developer.amazon.com/docs/gadget-skills/receive-echo-button-events.html), and how to [animate the Echo Button lights](https://developer.amazon.com/docs/gadget-skills/control-echo-buttons.html#animate).
-
-You may use this sample game as a starting point to build your own 'Better with Buttons' trivia game. You can customize Alexa's voice responses, the question list, and some game options without making changes to the code. However, to provide a truely unique game experience code changes will likely be necessary.
 
 ### About
 This guide assumes you have your developer environment ready to go and that you have some familiarity with CLI (Command Line Interface) Tools, [AWS](https://aws.amazon.com/), and the [ASK Developer Portal](https://developer.amazon.com/alexa-skills-kit).
