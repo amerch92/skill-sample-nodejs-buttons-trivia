@@ -72,7 +72,7 @@ module.exports = (function () {
    */
   const STORAGE = {
     // Session persistence
-    SESSION_TABLE: 'better-with-buttons-trivia'
+    SESSION_TABLE: 'star-wars-trivia'
   };
 
   /**
